@@ -1,0 +1,28 @@
+{
+  "name": "toxiproxy-node",
+  "version": "1.0.0",
+  "description": "Toxiproxy node client",
+  "main": "index.js",
+  "dependencies": {
+    "request-json": "^0.5.3"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dlion/toxiproxy-node.git"
+  },
+  "keywords": [
+    "toxiproxy",
+    "client",
+    "node"
+  ],
+  "author": "Domenico Luciani (domenicoleoneluciani@gmail.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlion/toxiproxy-node/issues"
+  },
+  "homepage": "https://github.com/dlion/toxiproxy-node#readme"
+}
