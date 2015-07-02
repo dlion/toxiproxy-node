@@ -28,11 +28,11 @@ redis.Create(function(err, body) {
       latency: 1000
     }, function(err, body) {
       //Show Redis downstream info
-      proxy.Toxics('downstream', function(err, body) {
+      redis.Toxics('downstream', function(err, body) {
         if(!err) {
           console.log(body);
           //Delete Redis Proxy
-          proxy.Delete(function(){});
+          redis.Delete(function(){});
         }
       });
     });
